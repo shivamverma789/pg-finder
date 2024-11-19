@@ -66,14 +66,3 @@ Congratulations 🎉, you've successfully started the service on your local syst
 
 The project is open for contribution, follow the [contributing-guidelines](https://github.com/aryan-upa/pg-finder-v2/blob/b98747938cae97aab20475a8abad180d86c2fbec/CONTRIBUTING.md) to create meaningful contributions in the 
 project.
-
-## License
-
-MIT License - Copyright (c) 2023 Aryan Upadhyay & Priyanshi Mittal
-
-## Developers
-
-Frontend Development: [@priyanshi-mittal](https://github.com/priyanshi-mittal) <br>
-Backend Development: [@aryan-upa](https://github.com/aryan-upa)
-
-

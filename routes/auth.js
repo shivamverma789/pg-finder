@@ -157,7 +157,8 @@ router.get('/admin-create', (req, res) => {
 router.post('/admin-create', async (req, res) => {
 	try {
 		const {email, adminKey: providedAdminKey} = req.body;
-
+		console.log(providedAdminKey);
+		console.log(adminKey);
 		if (providedAdminKey !== adminKey)
 			return res.render('error', {code: 406, error: 'BAD REQUEST, UNAUTHORIZED'});
 
@@ -165,7 +166,7 @@ router.post('/admin-create', async (req, res) => {
 		login.role = 'admin';
 
 		await riders.findOneAndDelete({email});
-		login.save();
+		await login.save();
 		res.redirect('/auth/admin-login');
 	} catch (e) {
 		res.render('error', {code: 500, error: 'Internal server error'})
