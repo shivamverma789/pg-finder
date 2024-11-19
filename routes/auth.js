@@ -113,7 +113,7 @@ router.get('/login', (req, res) => {
 	}
 })
 
-router.post('/login', validateLogin, async (req, res, next) => {
+router.post('/login', async (req, res, next) => {
 	try {
 		const {email} = req.body;
 		const user = await logins.findOne({username: email});

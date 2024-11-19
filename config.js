@@ -1,12 +1,12 @@
 const path = require('path');
-require('dotenv').config({path: path.join(__dirname, 'secret.env')});
+require('dotenv').config({path: path.join(__dirname, '.env')});
 
 module.exports = {
 	databaseURL: process.env.DATABASE_URL,
 	baseURL: process.env.BASE_URL,
 	emailAdd: process.env.EMAIL_ADDRESS,
 	appPass: process.env.APP_PASSCODE,
-	port: process.env.PORT || 3500,
+	port: process.env.PORT || 3000,
 	sessionSecret: process.env.SESSION_SECRET,
 	zipcodeKey: process.env.ZIPCODE_STACK_KEY,
 	cloudName: process.env.CLOUD_NAME,
