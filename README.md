@@ -71,9 +71,6 @@ project.
 
 MIT License - Copyright (c) 2023 Aryan Upadhyay & Priyanshi Mittal
 
-## Developers
 
-Frontend Development: [@priyanshi-mittal](https://github.com/priyanshi-mittal) <br>
-Backend Development: [@aryan-upa](https://github.com/aryan-upa)
 
 
